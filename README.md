@@ -16,7 +16,7 @@ If you use this code in your work, please cite the following:
 ```bash
 git clone https://github.com/somastro/peakmoment.git
 cd peakmoment
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
 
 
