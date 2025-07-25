@@ -18,7 +18,7 @@ git clone https://github.com/somastro/peakmoment.git
 cd peakmoment
 pip install -r requirements.txt```
 
-
+----
 
 
 # USES
