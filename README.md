@@ -18,7 +18,7 @@ If you are using the notebook version, please open it in any notebook
 
 If you use this code in your work, please cite the following:
 
-> Dutta, S. et al. *[Molecular Jets from an Evolved Protostar: Insights from JWST-ALMA Synergy]*, Submitted to [ApJ], 2025.  
+> Dutta, Somnath *[Molecular Jets from an Evolved Protostar: Insights from JWST-ALMA Synergy]*, Submitted to [ApJ], 2025.  
 > DOI: [Zenodo DOI will be added here after deposition
 
 
