@@ -11,6 +11,12 @@
   Email: <a href="mailto:sdutta@asiaa.sinica.edu.tw">sdutta@asiaa.sinica.edu.tw</a>,
   <a href="mailto:duttasomnath9@gmail.com">duttasomnath9@gmail.com</a>
 </p>
+
+<h2>Code Name</h2>
+<p>
+  <li><code>peakmoment</code></li>
+</p>
+
   
 <p>
 This code enables the extraction of spectra from JWST image cubes, identification of emission lines, and generation of continuum-subtracted moment-0 maps for each detected spectral peak. 
