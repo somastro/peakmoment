@@ -26,6 +26,12 @@
 <p>
   <li>MIT License</li>
 </p>
+
+<p><strong>Code tested under the following compilers/operating systems:</strong></p>
+<ul>
+  <li>Python 3.11.2 on macOS Monterey</li>
+  <li>Jupyter notebook 6.5.3+ (browser-based interface)</li>
+</ul>
   
 <p>
 This code enables the extraction of spectra from JWST image cubes, identification of emission lines, and generation of continuum-subtracted moment-0 maps for each detected spectral peak. 
