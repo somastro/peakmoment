@@ -3,6 +3,12 @@
 <body>
 
 <h1><code>peakmoment</code>: JWST-MIRI Spectral Analysis and Moment Map Generator</h1>
+<h2> Author</h2>
+
+<p>
+This package is developed by: Somnath Dutta (Academia Sinica Institute of Astronomy and Astrophysics, Taiwan)
+</p>
+  
 <p>
 This code enables the extraction of spectra from JWST image cubes, identification of emission lines, and generation of continuum-subtracted moment-0 maps for each detected spectral peak. 
 It uses publicly available <a href="https://archive.stsci.edu/missions-and-data/jwst" target="_blank">JWST archive data</a> to demonstrate the workflow. The data used in this paper were obtained from the Mikulski Archive for Space Telescopes (MAST) at the Space Telescope Science Institute. All the <i>JWST</i> data analyzed here are publicly available in MAST: 
