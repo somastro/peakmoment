@@ -130,7 +130,7 @@ The cell #2 script builds on spectral analysis results to generate moment-0 maps
 </ul>
 
 <h3>📂 Inputs</h3>
-No need to change these parameters if you are using the full version of the notebook. These will be automatically selected from previous cell compilation. 
+<p><strong>Note:</strong> You do not need to change these parameters if you are using the full version of the notebook. They will be automatically selected based on the output of the previous cell.</p>
 <ul>
   <li><code>cube</code>: A <code>SpectralCube</code> object.</li>
   <li><code>detected_peaks_wavelengths</code>: List of emission line wavelengths (μm).</li>
