@@ -55,7 +55,7 @@ the detection and mapping process.
   <pre><code>pip install ipykernel</code></pre>
   <pre><code>python -m ipykernel install --user --name=jwstpeakmoment --display-name "jwstpeakmoment"</code></pre>
   <pre><code>jupyter notebook</code></pre>
-  <p>In the Notebook, go to <strong>Kernel → Change Kernel</strong> and choose <strong>jwstpeakmoment</strong>.</p>
+  <p>In the Notebook, go to <strong>Kernel → Change Kernel</strong> and choose <strong>jwstpeakmoment</strong>. The dependencies should be installed within this virtual environment.</p>
 
 
 <h2>🔍 JWST/MIRI Spectral Analysis Script</h2>
