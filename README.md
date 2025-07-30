@@ -4,7 +4,7 @@
 
 <h1><code>peakmoment</code>: JWST-MIRI Spectral Analysis and Moment Map Generator</h1>
 
-<h2>Author</h2>
+<p><strong>Author</strong></p>
 <p>
   This package was developed by <strong>Somnath Dutta</strong><br>
   Academia Sinica Institute of Astronomy and Astrophysics (ASIAA), Taiwan<br>
@@ -12,17 +12,17 @@
   <a href="mailto:duttasomnath9@gmail.com">duttasomnath9@gmail.com</a>
 </p>
 
-<h2>Code Name</h2>
+<p><strong>Code Name</strong></p>
 <p>
   <li><code>peakmoment</code></li>
 </p>
 
-<h2>Language</h2>
+<p><strong>Language</strong></p>
 <p>
   <li>Python 3.9+</li>
 </p>
 
-<h2>License</h2>
+<p><strong>License</strong></p>
 <p>
   <li>MIT License</li>
 </p>
