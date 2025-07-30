@@ -14,7 +14,7 @@ It uses publicly available <a href="https://archive.stsci.edu/missions-and-data/
 
 <p>
 A Jupyter notebook is included to illustrate the workflow for analyzing 
-<strong>JWST/MIRI Channel 1</strong> IFU data. While the example uses Channel 1, 
+<strong>JWST/MIRI Channel</strong> IFU data. While the example uses Channel 1, 
 the same process applies to other MIRI channels with minimal modification.
 </p>
 
@@ -60,14 +60,14 @@ the detection and mapping process.
 
 <h2>🔍 JWST/MIRI Spectral Analysis Script</h2>
 <p>
-The cell #1 script performs aperture-based spectral analysis on <strong>JWST MIRI Channel 1</strong> IFU data cubes. It extracts a 1D spectrum from a user-defined circular region, fits the continuum, detects emission lines, and annotates known H<sub>2</sub> transitions.
+The cell #1 script performs aperture-based spectral analysis on <strong>JWST MIRI Channel </strong> (only one channel in this example) IFU data cubes. It extracts a 1D spectrum from a user-defined circular region, fits the continuum, detects emission lines, and annotates known H<sub>2</sub> transitions.
 </p>
 
 <h3>✨ Key Features</h3>
 <ul>
   <li>📦 Reads a 3D spectral cube from a JWST FITS file using <code>spectral_cube</code>. Spectral axis is converted to microns.</li>
   <li>🔄 Converts the flux units from MJy/sr to mJy/pixel using WCS-derived pixel area in steradians.</li>
-  <li>🎯 Applies a circular aperture centered at user-specified pixel (<code>x0</code>, <code>y0</code>) with radius defined in arcseconds.</li>
+  <li>🎯 Applies a circular aperture centered at user-specified pixel (<code>x0</code>, <code>y0</code>) with radius defined in arcseconds  or pixels.</li>
   <li>📉 Extracts the 1D spectrum by summing the flux within the aperture across all wavelengths.</li>
   <li>🧮 Fits a linear continuum to the spectrum using predefined line-free regions.</li>
   <li>🚨 Estimates noise from the continuum and detects peaks above a sigma threshold.</li>
@@ -93,14 +93,14 @@ The cell #1 script performs aperture-based spectral analysis on <strong>JWST MIR
 
 <h3>🛠️ Customization</h3>
 <ul>
-  <li>Modify <code>x0</code>, <code>y0</code>, and <code>aperture_radius_arcsec</code> for different regions.</li>
+  <li>Modify <code>x0</code>, <code>y0</code>, and <code>aperture_radius_arcsec</code> or <code>radius</code> (if want to define by number of pixels) for different regions.</li>
   <li>Adjust continuum model degree (default: 1 for linear).</li>
   <li>Change detection threshold <code>sigma_given</code> (default: 5).</li>
 </ul>
 
 <hr>
 
-<h2>🌠 JWST MIRI Channel 1 Moment Map Generator (per Emission Line)</h2>
+<h2>🌠 JWST MIRI Channel Moment Map Generator (per Emission Line)</h2>
 <p>
 The cell #2 script builds on spectral analysis results to generate moment-0 maps of detected emission lines. For each detected peak, it fits and subtracts the continuum, integrates over significant channels, and saves diagnostic plots and FITS files.
 </p>
@@ -130,11 +130,12 @@ The cell #2 script builds on spectral analysis results to generate moment-0 maps
 </ul>
 
 <h3>📂 Inputs</h3>
+No need to change these parameters if you are using the full version of the notebook. These will be automatically selected from previous cell compilation. 
 <ul>
   <li><code>cube</code>: A <code>SpectralCube</code> object.</li>
   <li><code>detected_peaks_wavelengths</code>: List of emission line wavelengths (μm).</li>
   <li><code>x0, y0</code>: Center of aperture (pixels).</li>
-  <li><code>radius</code>: Aperture radius (pixels).</li>
+  <li><code>aperture_radius_arcsec</code>: Aperture radius (arcsec) or <code>radius</code>: Aperture radius (pixels).</li>
   <li><code>output_dir</code>: Directory to save output files.</li>
   <li><code>flux_unit</code>: Flux unit (e.g., mJy) for labeling.</li>
 </ul>
