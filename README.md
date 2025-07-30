@@ -3,6 +3,8 @@
 <body>
 
 <h1><code>peakmoment</code>: JWST-MIRI Spectral Analysis and Moment Map Generator</h1>
+
+<h2>Author</h2>
 <p>
   This package was developed by <strong>Somnath Dutta</strong><br>
   Academia Sinica Institute of Astronomy and Astrophysics (ASIAA), Taiwan<br>
