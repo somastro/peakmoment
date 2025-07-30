@@ -46,6 +46,8 @@ the detection and mapping process.
   <li><code>tqdm</code></li>
 </ul>
 
+<p> Install dependencies with:</p>
+<pre><code>pip install numpy matplotlib spectral-cube astropy scipy tqdm</code></pre>
 
 <h3> Create a New Virtual Environment</h3>
  <pre><code>python3 -m venv jwstpeakmoment</code></pre>
@@ -55,8 +57,6 @@ the detection and mapping process.
   <pre><code>jupyter notebook</code></pre>
   <p>In the Notebook, go to <strong>Kernel → Change Kernel</strong> and choose <strong>jwstpeakmoment</strong>.</p>
 
-<p> Install dependencies with:</p>
-<pre><code>pip install numpy matplotlib spectral-cube astropy scipy tqdm</code></pre>
 
 <h2>🔍 JWST/MIRI Spectral Analysis Script</h2>
 <p>
