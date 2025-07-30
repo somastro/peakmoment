@@ -218,7 +218,7 @@ If you use this code in your work, please cite the following:
 
 <blockquote>
 Dutta, Somnath. <em>Molecular Jets from an Evolved Protostar: Insights from JWST–ALMA Synergy</em>. Submitted to <strong>ApJ</strong>, 2025. <br>
-DOI: <a href="#" target="_blank" rel="noopener noreferrer">Zenodo DOI (to be added upon deposition)</a>
+DOI: <a href="https://doi.org/10.5281/zenodo.16609954" target="_blank" rel="noopener noreferrer">https://doi.org/10.5281/zenodo.16609954</a>
 </blockquote>
 
 </body>
