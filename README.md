@@ -2,7 +2,7 @@
 <html lang="en">
 <body>
 
-<h1><code>peakmoment</code>: JWST-MIRI Spectral Analysis</h1>
+<h1><code>peakmoment</code>: JWST-MIRI Spectral Analysis and Moment Map Generator</h1>
 <p>
 This code enables the extraction of spectra from JWST image cubes, identification of emission lines, and generation of continuum-subtracted moment-0 maps for each detected spectral peak. 
 It uses publicly available <a href="https://archive.stsci.edu/missions-and-data/jwst" target="_blank">JWST archive data</a> to demonstrate the workflow.
