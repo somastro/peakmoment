@@ -17,6 +17,15 @@
   <li><code>peakmoment</code></li>
 </p>
 
+<h2>Language</h2>
+<p>
+  <li>Python 3.9+</li>
+</p>
+
+<h2>License</h2>
+<p>
+  <li>MIT License</li>
+</p>
   
 <p>
 This code enables the extraction of spectra from JWST image cubes, identification of emission lines, and generation of continuum-subtracted moment-0 maps for each detected spectral peak. 
